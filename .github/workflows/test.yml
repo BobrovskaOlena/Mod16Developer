@@ -25,6 +25,3 @@ jobs:
 
       - name: Run JUnit Tests
         run: ./gradlew test
-
-      - name: Print Success Message
-        run: echo "All tests passed successfully!"
